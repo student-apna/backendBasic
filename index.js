@@ -15,6 +15,10 @@ app.get('/login',(req,res)=>{
     res.send('<h1> Hello I am a H1 Tag </h1>')
 })
 
+app.get('/home',(req,res)=>{
+    res.send('Welcome to the home page');
+})
+
 
 const PORT =  process.env.PORT||7000;
 
